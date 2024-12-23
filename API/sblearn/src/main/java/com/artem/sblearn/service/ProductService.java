@@ -19,4 +19,8 @@ public interface ProductService {
     
     Optional<Products> getProductById(Integer id);
     
+    String uploadFile(MultipartFile file);
+    
+    String ImportData(String fileName);
+    
 }
